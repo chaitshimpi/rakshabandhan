@@ -693,6 +693,7 @@ header.sticky{
         margin: 0 10px;
     }
     .contact-text p{
+		font-size: 18px;
         max-width: 100%;
     }
     .details{
