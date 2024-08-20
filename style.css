@@ -694,7 +694,7 @@ header.sticky{
     }
     .contact-text p{
 		font-size: 18px;
-        max-width: 100%;
+/*         max-width: 100%; */
     }
     .details{
         gap: 1.5rem;
