@@ -743,7 +743,7 @@ header.sticky{
 	 .about{
 		grid-template-columns:repeat(2, 2fr); 
 		grid-gap: 1rem;
-		margin-top: 220px;
+		margin-top: 200px;
 	}
 	.about-text{
 		text-align: center;
@@ -775,7 +775,7 @@ header.sticky{
 	}
 
 	.fight{
-		margin-top: 220px;
+		margin-top: 200px;
 		grid-gap: 5px;
 	}
 
