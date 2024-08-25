@@ -718,6 +718,7 @@ header.sticky{
 		grid-template-columns: 1fr;
 		height: 100vh;
 		grid-gap: 1rem;
+		margin-bottom: 275px;
 	}
 	.home-text{
 		text-align: center;
@@ -865,32 +866,38 @@ header.sticky{
 		font-size: 10px;
 		line-height: 1.5;
 	}
+	.letter form input:first-child{
+		padding: 8px 130px 17px 15px;
+	} 
+	.letter form input:last-child{
+		align-items: center;
+		padding: 13px 10px;
+		cursor: pointer;
+	}
 	.letter{
 		align-items: center;
 		width: 200px;
 		height: auto;
 	}
-     .letter input{
-	     font-size: 10px;
-           padding: 10px;
+         .letter input{
+	        font-size: 10px;
+        }
+         .contact-img img {
+	         width: 100%;
+	         max-width: 150px;
+                 height: auto;
       }
-      .contact-img img {
-	    width: 100%;
-	    max-width: 150px;
-          height: auto;
-      }
-      .social i{
-	   font-size: 25px;
-      }
-
-      .main-d i{
-	   font-size: 15px;
-      }
-      .main-d a{
-	   font-size: 15px;
+        .social i{
+	        font-size: 25px;
       }
 
+         .main-d i{
+	        font-size: 15px;
+      }
+         .main-d a{
+	       font-size: 15px;
+      }
 	.details {
-	   gap: 0.5rem;
+	        gap: 0.5rem;
 	}
 }
