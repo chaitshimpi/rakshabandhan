@@ -705,10 +705,13 @@ header.sticky{
 }
 
 @media (max-width: 760px){
+	.navbar li a{
+		font-size: 20px;
+	}
 	.home{
 		display: grid;
 		grid-template-columns: 1fr;
-		height: 50vh;
+		height: 100vh;
 		grid-gap: 1rem;
 	}
 	.home-text{
@@ -730,9 +733,10 @@ header.sticky{
 		height: auto;
 	}
 	 .about{
-		height: 30vh;
-		grid-template-columns:repeat(2, 2fr); ;
+		/* height: 120vh; */
+		grid-template-columns:repeat(2, 2fr); 
 		grid-gap: 1rem;
+		margin-top: 145px;
 	}
 	.about-text{
 		text-align: center;
@@ -744,7 +748,7 @@ header.sticky{
 	}
 	.about-img img{
 		padding-top: 0px;
-		width: 255px;
+		width: 200px;
 	} 
 
 	.about-text h3{
@@ -759,12 +763,13 @@ header.sticky{
 		line-height: 1.5;
 	}
 	.btn{
-		font-size: 15px;
+		font-size: 12px;
 		padding: 12px;
 	}
 
 	.fight{
-		height: 30vh;
+		margin-top: 110px;
+		grid-gap: 5px;
 	}
 
 	.fight-text h3{
@@ -774,21 +779,76 @@ header.sticky{
 		font-size: 25px;
 	}
 	.fight-text p{
-		font-size: 18px;
+		font-size: 15px;
 		line-height: 1.5;
 	}
 
 	.fight-img img{
-		/* padding-top: 0px; */
-		width: 255px;
-		height: 270px;
+		width: 225px;
+		height: 225px;
 	} 
 
+	.video-container{
+		max-width: 100%;
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+
+	video{
+		width: 100%;
+		height: auto;
+	}
+	.menu{
+		margin-top: 200px;
+	}
+	.center-text h3{
+		font-size: 20px;
+	}
+	.center-text h2{
+		font-size: 25px;
+	}
+    
+	.box-img img {
+        margin-left:5px;
+        width: 90%;
+        height: 15vh;
+    }
+	.box-text h4 {
+		color: var(--text-color);
+		font-size: 15px;
+		font-weight: 700;
+		margin-bottom: 8px
+	}
+	.box-text p {
+        font-size: 15px;
+        color: var(--p-font);
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+	.box-text h6{
+		font-size: 15px;
+	}
+
+	.contact-text h2 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.contact-text p{
+		font-size: 16px;
+		line-height: 1.1;
+		font-weight: normal;
+	}
 	section{
 		padding: 65px 3%;
 		transition: .3s;
 	}
 	.letter form{
 		width: 250px;
+
 	} 
+	.details {
+		gap: 0.5rem;
+	}
 }
