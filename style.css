@@ -703,3 +703,92 @@ header.sticky{
 		font-size: 15px;
     }
 }
+
+@media (max-width: 760px){
+	.home{
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 50vh;
+		grid-gap: 1rem;
+	}
+	.home-text{
+		text-align: center;
+	}
+
+	.home-text h3 {
+        font-size: 25px;
+    }
+	.home-text h1{
+		font-size: 30px;
+	}
+	.home-img{
+		text-align: center;
+	}
+	.home-img img{
+		width: 400px;
+		max-width: 100%;
+		height: auto;
+	}
+	 .about{
+		height: 30vh;
+		grid-template-columns:repeat(2, 2fr); ;
+		grid-gap: 1rem;
+	}
+	.about-text{
+		text-align: center;
+	}
+
+	.about-img{
+		order: 2;
+		text-align: center;
+	}
+	.about-img img{
+		padding-top: 0px;
+		width: 255px;
+	} 
+
+	.about-text h3{
+		font-size: 25px;
+	}
+	.about-text h2{
+		font-size: 25px;
+	}
+
+	.about-text p{
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	.btn{
+		font-size: 15px;
+		padding: 12px;
+	}
+
+	.fight{
+		height: 30vh;
+	}
+
+	.fight-text h3{
+		font-size: 25px;
+	}
+	.fight-text h2{
+		font-size: 25px;
+	}
+	.fight-text p{
+		font-size: 18px;
+		line-height: 1.5;
+	}
+
+	.fight-img img{
+		/* padding-top: 0px; */
+		width: 255px;
+		height: 270px;
+	} 
+
+	section{
+		padding: 65px 3%;
+		transition: .3s;
+	}
+	.letter form{
+		width: 250px;
+	} 
+}
