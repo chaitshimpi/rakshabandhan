@@ -704,7 +704,16 @@ header.sticky{
     }
 }
 
-@media (max-width: 760px){
+@media (max-width: 720px){
+	.logo img{
+        width: 45px;
+	}
+	#menu-icon{
+		font-size: 25px;
+	}
+	.header{
+		padding: 10px ;
+	}
 	.navbar li a{
 		font-size: 20px;
 	}
@@ -712,7 +721,6 @@ header.sticky{
 		display: grid;
 		grid-template-columns: 1fr;
 		height: 100vh;
-		width: 107%;
 		grid-gap: 1rem;
 	}
 	.home-text{
@@ -730,7 +738,7 @@ header.sticky{
 	}
 	.home-img img{
 		width: 400px;
-		max-width: 100%;
+		max-width: 107%;
 		height: auto;
 	}
 	 .about{
@@ -804,6 +812,10 @@ header.sticky{
 	.menu{
 		margin-top: 200px;
 	}
+	.menu-content{
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+	}
 	.center-text h3{
 		font-size: 20px;
 	}
@@ -837,7 +849,7 @@ header.sticky{
 		margin-bottom: 10px;
 	}
 	.contact-text p{
-		font-size: 16px;
+		font-size: 13px;
 		line-height: 1.1;
 		font-weight: normal;
 	}
@@ -845,10 +857,41 @@ header.sticky{
 		padding: 65px 3%;
 		transition: .3s;
 	}
-	.letter form{
-		width: 250px;
+	.news-text h3{
+		font-size: 15px;
+	}
+	.news-text h2{
+		font-size: 20px;
+	}
+	.news-text p{
+		font-size: 10px;
+		line-height: 1.5;
+	}
+	.letter{
+		align-items: center;
+		width: 200px;
+		height: auto;
+	}
+   .letter input{
+	font-size: 10px;
+	padding: 10px;
+   }
+   .contact-img img {
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+}
+.social i{
+	font-size: 25px;
+}
 
-	} 
+.main-d i{
+	font-size: 15px;
+}
+.main-d a{
+	font-size: 15px;
+}
+
 	.details {
 		gap: 0.5rem;
 	}
